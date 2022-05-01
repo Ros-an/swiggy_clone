@@ -1,0 +1,15 @@
+.home-carousel {
+    padding: 2rem 1.25rem;
+    background-color: #171a29;
+    
+}
+.home-carousel__cards img {
+    width: 100%;
+}
+.home-carousel .slider-container {
+    max-width: 1200px;
+    margin: auto;
+}
+.slider-control-bottomcenter {
+    display: none;
+}

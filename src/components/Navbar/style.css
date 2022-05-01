@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+}
+.logo {
+    font-size: 3rem;
+}
+
+.navbar__right {
+    flex: 0.5;
+}
+.right__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right__item > span{
+    margin-left: 0.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.right__item > svg {
+    stroke: currentColor;
+    fill: #3d4152;
+    stroke-width: 0;
+    font-size: 1.1rem;
+}
